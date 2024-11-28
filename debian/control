@@ -2,9 +2,9 @@ Source: jack-sine
 Section: sound
 Priority: optional
 Maintainer: Blokas <hello@blokas.io>
-Build-Depends: debhelper (>=11~)
+Build-Depends: debhelper-compat (=13)
 Standards-Version: 4.1.4
-Homepage: https://blokas.io
+Homepage: https://blokas.io/
 
 Package: jack-sine
 Architecture: any

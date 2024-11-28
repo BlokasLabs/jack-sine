@@ -14,10 +14,10 @@
 #        along with this program; if not, write to the Free Software
 #        Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-PREFIX = /usr/local
+PREFIX ?= /usr/local
 
-jack_sine: jack_sine.c
-	gcc jack_sine.c -o jack_sine -ljack -lm
+jack_sine: src/jack_sine.c
+	gcc src/jack_sine.c -o jack_sine -ljack -lm
 
 install: jack_sine
 	@install -d $(DESTDIR)$(PREFIX)/bin

@@ -1,0 +1,11 @@
+jack-sine (1.0.0-2) unreleased; urgency=low
+
+  * Repackaged for multi-arch builds.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Thu, 28 Nov 2024 08:35:04 +0000
+
+jack-sine (1.0.0-1) buster; urgency=low
+
+  * Initial release.
+
+ -- Giedrius Trainavičius <giedrius@blokas.io>  Tue, 31 Mar 2020 13:33:31 +0100
